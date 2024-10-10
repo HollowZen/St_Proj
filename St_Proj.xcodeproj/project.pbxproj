@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2223D74E2CB4DCFB00817480 /* Documents in Resources */ = {isa = PBXBuildFile; fileRef = 2223D74D2CB4DCFB00817480 /* Documents */; };
+		2279AC012CB76EE700FE4B8E /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279AC002CB76EE700FE4B8E /* SignIn.swift */; };
+		2279AC052CB76F4100FE4B8E /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279AC042CB76F4100FE4B8E /* UserViewModel.swift */; };
+		2279AC082CB76F8800FE4B8E /* Swift_Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279AC072CB76F8800FE4B8E /* Swift_Api.swift */; };
+		2279AC0B2CB7706600FE4B8E /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 2279AC0A2CB7706600FE4B8E /* Auth */; };
+		2279AC0D2CB7706600FE4B8E /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 2279AC0C2CB7706600FE4B8E /* Functions */; };
+		2279AC0F2CB7706600FE4B8E /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 2279AC0E2CB7706600FE4B8E /* PostgREST */; };
+		2279AC112CB7706600FE4B8E /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 2279AC102CB7706600FE4B8E /* Realtime */; };
+		2279AC132CB7706600FE4B8E /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 2279AC122CB7706600FE4B8E /* Storage */; };
+		2279AC152CB7706600FE4B8E /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 2279AC142CB7706600FE4B8E /* Supabase */; };
+		2279AC172CB770B100FE4B8E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279AC162CB770B000FE4B8E /* UserModel.swift */; };
+		2279AC192CB7711000FE4B8E /* ForgotPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279AC182CB7711000FE4B8E /* ForgotPassView.swift */; };
 		2298C90E2CB38C690088E31E /* St_ProjApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298C90D2CB38C690088E31E /* St_ProjApp.swift */; };
 		2298C9102CB38C690088E31E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298C90F2CB38C690088E31E /* ContentView.swift */; };
 		2298C9122CB38C6B0088E31E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2298C9112CB38C6B0088E31E /* Assets.xcassets */; };
@@ -14,6 +26,19 @@
 		2298C91F2CB38C6C0088E31E /* St_ProjTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298C91E2CB38C6C0088E31E /* St_ProjTests.swift */; };
 		2298C9292CB38C6C0088E31E /* St_ProjUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298C9282CB38C6C0088E31E /* St_ProjUITests.swift */; };
 		2298C92B2CB38C6C0088E31E /* St_ProjUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298C92A2CB38C6C0088E31E /* St_ProjUITestsLaunchTests.swift */; };
+		2298C9452CB39DC70088E31E /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2298C9392CB39DC60088E31E /* Roboto-LightItalic.ttf */; };
+		2298C9462CB39DC70088E31E /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2298C93A2CB39DC60088E31E /* Roboto-BoldItalic.ttf */; };
+		2298C9472CB39DC70088E31E /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2298C93B2CB39DC60088E31E /* Roboto-MediumItalic.ttf */; };
+		2298C9482CB39DC70088E31E /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2298C93C2CB39DC60088E31E /* Roboto-BlackItalic.ttf */; };
+		2298C9492CB39DC70088E31E /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2298C93D2CB39DC60088E31E /* Roboto-ThinItalic.ttf */; };
+		2298C94A2CB39DC70088E31E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2298C93E2CB39DC70088E31E /* Roboto-Regular.ttf */; };
+		2298C94B2CB39DC70088E31E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2298C93F2CB39DC70088E31E /* Roboto-Bold.ttf */; };
+		2298C94C2CB39DC70088E31E /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2298C9402CB39DC70088E31E /* Roboto-Medium.ttf */; };
+		2298C94D2CB39DC70088E31E /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2298C9412CB39DC70088E31E /* Roboto-Thin.ttf */; };
+		2298C94E2CB39DC70088E31E /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2298C9422CB39DC70088E31E /* Roboto-Black.ttf */; };
+		2298C94F2CB39DC70088E31E /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2298C9432CB39DC70088E31E /* Roboto-Italic.ttf */; };
+		2298C9502CB39DC70088E31E /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2298C9442CB39DC70088E31E /* Roboto-Light.ttf */; };
+		2298C9542CB3AD7B0088E31E /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2298C9532CB3AD7B0088E31E /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +59,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2223D74D2CB4DCFB00817480 /* Documents */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documents; sourceTree = "<group>"; };
+		2279AC002CB76EE700FE4B8E /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		2279AC042CB76F4100FE4B8E /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		2279AC072CB76F8800FE4B8E /* Swift_Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Api.swift; sourceTree = "<group>"; };
+		2279AC162CB770B000FE4B8E /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		2279AC182CB7711000FE4B8E /* ForgotPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassView.swift; sourceTree = "<group>"; };
 		2298C90A2CB38C690088E31E /* St_Proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = St_Proj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2298C90D2CB38C690088E31E /* St_ProjApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = St_ProjApp.swift; sourceTree = "<group>"; };
 		2298C90F2CB38C690088E31E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +75,20 @@
 		2298C9242CB38C6C0088E31E /* St_ProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = St_ProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2298C9282CB38C6C0088E31E /* St_ProjUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = St_ProjUITests.swift; sourceTree = "<group>"; };
 		2298C92A2CB38C6C0088E31E /* St_ProjUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = St_ProjUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2298C9392CB39DC60088E31E /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		2298C93A2CB39DC60088E31E /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2298C93B2CB39DC60088E31E /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		2298C93C2CB39DC60088E31E /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		2298C93D2CB39DC60088E31E /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		2298C93E2CB39DC70088E31E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		2298C93F2CB39DC70088E31E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		2298C9402CB39DC70088E31E /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		2298C9412CB39DC70088E31E /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		2298C9422CB39DC70088E31E /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		2298C9432CB39DC70088E31E /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		2298C9442CB39DC70088E31E /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		2298C9522CB39E360088E31E /* St-Proj-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "St-Proj-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2298C9532CB3AD7B0088E31E /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +96,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2279AC0F2CB7706600FE4B8E /* PostgREST in Frameworks */,
+				2279AC0D2CB7706600FE4B8E /* Functions in Frameworks */,
+				2279AC152CB7706600FE4B8E /* Supabase in Frameworks */,
+				2279AC0B2CB7706600FE4B8E /* Auth in Frameworks */,
+				2279AC132CB7706600FE4B8E /* Storage in Frameworks */,
+				2279AC112CB7706600FE4B8E /* Realtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +122,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2279AC022CB76F0800FE4B8E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2279AC042CB76F4100FE4B8E /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2279AC032CB76F1D00FE4B8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2279AC002CB76EE700FE4B8E /* SignIn.swift */,
+				2298C90F2CB38C690088E31E /* ContentView.swift */,
+				2279AC182CB7711000FE4B8E /* ForgotPassView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2279AC062CB76F7600FE4B8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2279AC072CB76F8800FE4B8E /* Swift_Api.swift */,
+				2279AC162CB770B000FE4B8E /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2298C9012CB38C690088E31E = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +172,16 @@
 		2298C90C2CB38C690088E31E /* St_Proj */ = {
 			isa = PBXGroup;
 			children = (
-				2298C90D2CB38C690088E31E /* St_ProjApp.swift */,
-				2298C90F2CB38C690088E31E /* ContentView.swift */,
-				2298C9112CB38C6B0088E31E /* Assets.xcassets */,
 				2298C9132CB38C6B0088E31E /* Preview Content */,
+				2298C9552CB3ADA60088E31E /* Common */,
+				2279AC032CB76F1D00FE4B8E /* View */,
+				2223D74D2CB4DCFB00817480 /* Documents */,
+				2298C9512CB39DDA0088E31E /* Font */,
+				2279AC022CB76F0800FE4B8E /* ViewModel */,
+				2279AC062CB76F7600FE4B8E /* Model */,
+				2298C9522CB39E360088E31E /* St-Proj-Info.plist */,
+				2298C90D2CB38C690088E31E /* St_ProjApp.swift */,
+				2298C9112CB38C6B0088E31E /* Assets.xcassets */,
 			);
 			path = St_Proj;
 			sourceTree = "<group>";
@@ -127,6 +211,33 @@
 			path = St_ProjUITests;
 			sourceTree = "<group>";
 		};
+		2298C9512CB39DDA0088E31E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2298C9422CB39DC70088E31E /* Roboto-Black.ttf */,
+				2298C93C2CB39DC60088E31E /* Roboto-BlackItalic.ttf */,
+				2298C93F2CB39DC70088E31E /* Roboto-Bold.ttf */,
+				2298C93A2CB39DC60088E31E /* Roboto-BoldItalic.ttf */,
+				2298C9432CB39DC70088E31E /* Roboto-Italic.ttf */,
+				2298C9442CB39DC70088E31E /* Roboto-Light.ttf */,
+				2298C9392CB39DC60088E31E /* Roboto-LightItalic.ttf */,
+				2298C9402CB39DC70088E31E /* Roboto-Medium.ttf */,
+				2298C93B2CB39DC60088E31E /* Roboto-MediumItalic.ttf */,
+				2298C93E2CB39DC70088E31E /* Roboto-Regular.ttf */,
+				2298C9412CB39DC70088E31E /* Roboto-Thin.ttf */,
+				2298C93D2CB39DC60088E31E /* Roboto-ThinItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		2298C9552CB3ADA60088E31E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2298C9532CB3AD7B0088E31E /* CheckBox.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +254,14 @@
 			dependencies = (
 			);
 			name = St_Proj;
+			packageProductDependencies = (
+				2279AC0A2CB7706600FE4B8E /* Auth */,
+				2279AC0C2CB7706600FE4B8E /* Functions */,
+				2279AC0E2CB7706600FE4B8E /* PostgREST */,
+				2279AC102CB7706600FE4B8E /* Realtime */,
+				2279AC122CB7706600FE4B8E /* Storage */,
+				2279AC142CB7706600FE4B8E /* Supabase */,
+			);
 			productName = St_Proj;
 			productReference = 2298C90A2CB38C690088E31E /* St_Proj.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +334,9 @@
 				Base,
 			);
 			mainGroup = 2298C9012CB38C690088E31E;
+			packageReferences = (
+				2279AC092CB7706600FE4B8E /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = 2298C90B2CB38C690088E31E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +353,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2298C94C2CB39DC70088E31E /* Roboto-Medium.ttf in Resources */,
 				2298C9152CB38C6B0088E31E /* Preview Assets.xcassets in Resources */,
+				2298C9482CB39DC70088E31E /* Roboto-BlackItalic.ttf in Resources */,
+				2298C94A2CB39DC70088E31E /* Roboto-Regular.ttf in Resources */,
+				2298C9502CB39DC70088E31E /* Roboto-Light.ttf in Resources */,
+				2298C94D2CB39DC70088E31E /* Roboto-Thin.ttf in Resources */,
+				2298C94F2CB39DC70088E31E /* Roboto-Italic.ttf in Resources */,
+				2298C9472CB39DC70088E31E /* Roboto-MediumItalic.ttf in Resources */,
+				2298C9492CB39DC70088E31E /* Roboto-ThinItalic.ttf in Resources */,
+				2298C94B2CB39DC70088E31E /* Roboto-Bold.ttf in Resources */,
 				2298C9122CB38C6B0088E31E /* Assets.xcassets in Resources */,
+				2298C9462CB39DC70088E31E /* Roboto-BoldItalic.ttf in Resources */,
+				2298C9452CB39DC70088E31E /* Roboto-LightItalic.ttf in Resources */,
+				2298C94E2CB39DC70088E31E /* Roboto-Black.ttf in Resources */,
+				2223D74E2CB4DCFB00817480 /* Documents in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +393,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2298C9102CB38C690088E31E /* ContentView.swift in Sources */,
+				2279AC172CB770B100FE4B8E /* UserModel.swift in Sources */,
+				2279AC192CB7711000FE4B8E /* ForgotPassView.swift in Sources */,
 				2298C90E2CB38C690088E31E /* St_ProjApp.swift in Sources */,
+				2298C9542CB3AD7B0088E31E /* CheckBox.swift in Sources */,
+				2279AC052CB76F4100FE4B8E /* UserViewModel.swift in Sources */,
+				2279AC012CB76EE700FE4B8E /* SignIn.swift in Sources */,
+				2279AC082CB76F8800FE4B8E /* Swift_Api.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +565,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"St_Proj/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "St-Proj-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +596,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"St_Proj/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "St-Proj-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -582,6 +729,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2279AC092CB7706600FE4B8E /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2279AC0A2CB7706600FE4B8E /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2279AC092CB7706600FE4B8E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		2279AC0C2CB7706600FE4B8E /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2279AC092CB7706600FE4B8E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		2279AC0E2CB7706600FE4B8E /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2279AC092CB7706600FE4B8E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		2279AC102CB7706600FE4B8E /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2279AC092CB7706600FE4B8E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		2279AC122CB7706600FE4B8E /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2279AC092CB7706600FE4B8E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		2279AC142CB7706600FE4B8E /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2279AC092CB7706600FE4B8E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2298C9022CB38C690088E31E /* Project object */;
 }
