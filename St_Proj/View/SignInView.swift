@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-struct SignIn: View {
+struct SignInView: View {
     
     @State var email = ""
     @State var pass = ""
@@ -62,7 +62,7 @@ struct SignIn: View {
                     
                     HStack{
                         Text("Already have an account?")
-                        NavigationLink(destination: ContentView())
+                        NavigationLink(destination: SignUpView())
                     {Text("    Sign Up")}
                     }
                 
@@ -82,6 +82,6 @@ struct SignIn: View {
 }
 
 #Preview {
-    SignIn()
+    SignInView()
 }
 

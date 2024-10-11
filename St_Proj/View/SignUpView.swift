@@ -7,14 +7,7 @@
 
 import SwiftUI
 
-struct SignInView: View {
-    var body: some View {
-        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Hello, world!@*/Text("Hello, world!")/*@END_MENU_TOKEN@*/
-    }
-}
-
-
-struct ContentView: View {
+struct SignUpView: View {
     @State var pass_conf = ""
     
     @State private var checkBox = false
@@ -140,6 +133,7 @@ struct ContentView: View {
                         }
                         HStack{
                             Text("Already have an account?")
+                                .foregroundColor(.primary)
                             NavigationLink(destination: SignIn())
                             {Text(" Sign in")}
                         }
@@ -148,6 +142,8 @@ struct ContentView: View {
                         Text("or sign in using")
                             .opacity(0.5)
                             .font(.system(size:10))
+                            .foregroundColor(.primary)
+                        
                     }
                 }
                 .padding()
@@ -158,5 +154,5 @@ struct ContentView: View {
     }
 }
 #Preview {
-    ContentView()
+    SignUpView()
 }
